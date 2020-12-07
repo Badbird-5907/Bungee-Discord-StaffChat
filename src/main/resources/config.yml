@@ -1,0 +1,11 @@
+Discord:
+  token: "YOUR_TOKEN_HERE"
+  staffchat: "CHANNEL_ID_HERE"
+  adminchat: "CHANNEL_ID_HERE"
+#NOTE: Make sure adminchat and staffchat ids are in quotes and the token is in quotes.
+
+staff-chat: true
+admin-chat: true
+broadcast-join: true
+broadcast-leave: true
+broadcast-switch: true

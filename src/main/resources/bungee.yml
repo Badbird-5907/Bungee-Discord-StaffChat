@@ -1,0 +1,4 @@
+name: BungeeSC
+version: ${project.version}
+main: net.badbird5907.bungeestaffchat.BungeeStaffChat
+description: A bungeecord staff chat with discord support!
