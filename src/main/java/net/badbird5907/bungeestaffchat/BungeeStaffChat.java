@@ -61,7 +61,7 @@ public final class BungeeStaffChat extends Plugin {
         Log.info("Startup Finished. Took " + (System.currentTimeMillis() - start) + "ms.");
         spigotpluginid = 85774;
         update_check.check(spigotpluginid, version_raw);
-        PluginID = 9579;
+        PluginID = 86510;
         Metrics metrics = new Metrics(this, PluginID);
     }
 

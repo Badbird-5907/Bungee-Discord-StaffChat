@@ -14,7 +14,7 @@ public class SendAdminChatMessage {
         Configuration config = Messages.getConfig("messages");
         for (ProxiedPlayer staff : BungeeCord.getInstance().getPlayers()) {
             if (staff.hasPermission(Permission.ADMIN_CHAT.node)) {
-                TextComponent cp = new TextComponent(ChatColor.translateAlternateColorCodes('&', config.getString("Messages.adminchat")
+                TextComponent cp = new TextComponent(ChatColor.translateAlternateColorCodes('&', config.getString("Discord-Messages.adminchat")
                         .replaceAll("%message%", message)
                         .replaceAll("%player%", p.getDisplayName())
                         .replaceAll("%server%", p.getServer().getInfo().getName())));

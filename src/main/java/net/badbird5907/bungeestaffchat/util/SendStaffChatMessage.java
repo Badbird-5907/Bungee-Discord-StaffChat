@@ -57,7 +57,7 @@ public class SendStaffChatMessage {
     public static void DiscordSend(String sender, String message){
         Configuration config = Messages.getConfig("messages");
         for(ProxiedPlayer staff : BungeeCord.getInstance().getPlayers()){
-            TextComponent textComponent = new TextComponent(ChatColor.translateAlternateColorCodes('&', config.getString("Messages.discordsc")
+            TextComponent textComponent = new TextComponent(ChatColor.translateAlternateColorCodes('&', config.getString("Discord-Messages.discordsc")
                     .replaceAll("%user%", sender)
                     .replaceAll("%message%", message)
             ));

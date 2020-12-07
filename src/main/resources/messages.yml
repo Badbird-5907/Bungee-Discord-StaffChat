@@ -11,5 +11,8 @@ Messages:
   staffswitch: "&aStaff &8 » &f%player% &aSwitched from %from% to %to%"
   staff-chat-switched-to-admin: "&aStaff Chat was on so it was turned off!"
   admin-chat-switched-to-staff: "&aAdmin Chat was on so it was turned off!"
+  hush-on: "&8&7Hush is noe &aenabled."
+  hush-off: "&8&7Hush is noe &cdisabled."
+Discord-Messages:
   sent-staff-chat-msg: "```css\nStaffChat > (%server%) %player%: %message%\n```"
   sent-admin-chat-msg: "```css\nAdminChat > (%server%) %player%: %message%\n```"

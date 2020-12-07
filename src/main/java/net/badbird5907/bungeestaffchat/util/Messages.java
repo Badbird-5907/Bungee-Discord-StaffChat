@@ -31,8 +31,8 @@ public class Messages {
                     messages.set("Messages.staffswitch", "&aStaff &8 » &f%player% &aSwitched from %from% to %to%");
                     messages.set("Messages.staff-chat-switched-to-admin", "&aStaff Chat was on so it was turned off!");
                     messages.set("Messages.admin-chat-switched-to-staff", "&aAdmin Chat was on so it was turned off!");
-                    messages.set("Messages.hush-on", "&8&7Hush is noe &aenabled.");
-                    messages.set("Messages.hush-off", "&8&7Hush is noe &cdisabled.");
+                    messages.set("Messages.hush-on", "&8&7Hush is now &aenabled.");
+                    messages.set("Messages.hush-off", "&8&7Hush is now &cdisabled.");
                     messages.set("Discord-Messages.sent-staff-chat-msg", "```css\nStaffChat > (%server%) %player%: %message%\n```");
                     messages.set("Discord-Messages.sent-admin-chat-msg", "```css\nAdminChat > (%server%) %player%: %message%\n```");
                     saveConfig(messages, fileName);

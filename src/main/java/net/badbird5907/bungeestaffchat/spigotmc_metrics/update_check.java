@@ -20,7 +20,7 @@ public class update_check {
                 Log.info("This version of BungeeSC is outdated! Please update to the new version!");
                 Log.info("New version: " + newest_version);
                 Log.info("Your current version: " + current_version);
-                Log.info("Update Link: <LINK>");
+                Log.info("Update Link: https://www.spigotmc.org/resources/bungeesc.86510/");
             }
         } catch (IOException e) {
             e.printStackTrace();
