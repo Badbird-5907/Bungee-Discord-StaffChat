@@ -38,7 +38,7 @@ public final class BungeeStaffChat extends Plugin {
     public static String version_raw = version_raw1
             .replaceAll("[^\\d.]", "");
     */
-    public static String version_raw = "1.0";
+    public static String version_raw = "1.1";
     int spigotpluginid;
     int PluginID;
     @Override

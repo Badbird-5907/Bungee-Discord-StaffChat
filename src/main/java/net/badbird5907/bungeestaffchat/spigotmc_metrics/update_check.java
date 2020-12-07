@@ -1,6 +1,5 @@
 package net.badbird5907.bungeestaffchat.spigotmc_metrics;
 
-import net.badbird5907.bungeestaffchat.BungeeStaffChat;
 import net.badbird5907.bungeestaffchat.util.Log;
 
 import java.io.BufferedReader;
