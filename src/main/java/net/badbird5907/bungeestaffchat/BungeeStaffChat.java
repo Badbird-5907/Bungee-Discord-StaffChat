@@ -59,9 +59,9 @@ public final class BungeeStaffChat extends Plugin {
         Log.info("Connecting to discord");
         buildJDA();
         Log.info("Startup Finished. Took " + (System.currentTimeMillis() - start) + "ms.");
-        spigotpluginid = 85774;
+        spigotpluginid = 86510;
         update_check.check(spigotpluginid, version_raw);
-        PluginID = 86510;
+        PluginID = 9579;
         Metrics metrics = new Metrics(this, PluginID);
     }
 
