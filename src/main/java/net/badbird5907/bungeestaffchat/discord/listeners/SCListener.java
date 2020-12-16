@@ -18,7 +18,6 @@ public class SCListener extends ListenerAdapter {
             String content = message.getContentRaw();
             String name = event.getAuthor().getName();
             SendStaffChatMessage.DiscordSend(name, content);
-            Log.info("Discord Staff Chat > " + name + ": " + content);
         }
         else return;
     }

@@ -18,7 +18,6 @@ public class ACListener extends ListenerAdapter {
             String content = message.getContentRaw();
             String name = event.getAuthor().getName();
             SendAdminChatMessage.DiscordSend(name, content);
-            Log.info(   "Discord Admin Chat > " + name + ": " + content);
         }
         else return;
     }

@@ -23,6 +23,12 @@ public class SendAdminChatMessage {
             }
         }
         SendDiscordACM.send(p, message);
+        String str = ChatColor.translateAlternateColorCodes('&', config.getString("Messages.staffchat")
+                .replaceAll("%player%", p.getDisplayName())
+                .replaceAll("%message%", message)
+                .replaceAll("%server%", p.getServer().getInfo().getName())
+        );
+        Log.info(str);
     }
     public static void SendCustom(String sender,String server_null_if_none ,String message){
         Configuration config = Messages.getConfig("messages");
@@ -61,5 +67,10 @@ public class SendAdminChatMessage {
             if(BungeeStaffChat.Hush.contains(staff.getUniqueId())) { }
             else{staff.sendMessage(textComponent);}
         }
+        String str = ChatColor.translateAlternateColorCodes('&', config.getString("Messages.discordac")
+                .replaceAll("%user%", sender)
+                .replaceAll("%message%", message)
+        );
+        Log.info(str);
     }
 }

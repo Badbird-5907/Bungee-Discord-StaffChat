@@ -21,7 +21,13 @@ public class Config {
                     config.set("Discord.token", "your token here MUST BE IN QUOTES");
                     config.set("Discord.staffchat", "staff chat channel id here MUST BE IN QUOTES");
                     config.set("Discord.adminchat", "admin chat channel id here MUST BE IN QUOTES");
-
+                    if(!config.contains("Server-Log.enable")) {
+                        config.set("Server-Log.enable", true);
+                        config.set("Server-Log.channel", "Server Log Channel ID IN QUOTES");
+                        config.set("Server-Log.log-chat", true);
+                        config.set("Server-log.log-joins", true);
+                        config.set("Server-log.log-leaves", true);
+                    }
                     config.set("admin-chat", true);
                     config.set("staff-chat", true);
                     config.set("broadcast-join", true);

@@ -37,6 +37,13 @@ public class Messages {
                     messages.set("Messages.discordac", "&c&lDiscordAC »&r %user%&r: %message%");
                     messages.set("Discord-Messages.sent-staff-chat-msg", "```css\nStaffChat > (%server%) %player%: %message%\n```");
                     messages.set("Discord-Messages.sent-admin-chat-msg", "```css\nAdminChat > (%server%) %player%: %message%\n```");
+                    if(!messages.contains("Server-Log.player-join")) {
+                        messages.set("Server-Log.player-join", "%player% joined the network");
+                        messages.set("Server-Log.player-leave", "%player% left the network");
+                        messages.set("Server-Log.server-down", "%server% went down");
+                        messages.set("Server-Log.server-up", "%server% went down");
+                        messages.set("Server-Log.server-online", "%server% is online");
+                    }
                     saveConfig(messages, fileName);
                 }
             } catch (IOException e) {
